@@ -14,3 +14,4 @@ Dazu sollte der Hund Hello für zwei Sekunden sagen. Dafür haben wir, unter Con
 # 10.9.2018
 
 Nachdem wir uns für die blockbasierte Programmiersprache entschieden haben, fangen wir den schon fertigen Kurs "Beauty and Joy of computing", der von der Universitäten von California, Beckeley und Education Development Center ausgearbeitet wurde. Der Kurs stellt sieben Units dar, die unterschiedliche Niveus entsprechen. 
+Zuerst erstellen wir ein Account. ES ist wichtig yu programmieren wenn man angemeldet ist. 
