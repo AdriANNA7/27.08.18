@@ -28,6 +28,16 @@ In diese Doppelstunde setzten wir unseren Kurs fort. Wir haben ein neues *Sprite
 
 ![spiegelverkehrt](https://user-images.githubusercontent.com/42734752/45363379-aa074780-b5d7-11e8-907d-fa559fc65d36.jpg)
 
+Zusätzlich wollten wir, dass sich das Unicorn zufällig auf dem Bildschirm bewegt, sobald man es anklickt. Dafür haben wir unter *motion* den Befehl *go to x: [...]  y: [...]* hinzugefügt und unter *operators* durch den zusätzlichen Befehl *pick random [number] to [number]* beliebige Koordinaten eingefügt.
+
+![pickrandom](https://user-images.githubusercontent.com/42734752/45364650-f902ac00-b5da-11e8-9402-856f31a79570.jpg)
+
+Um das Unicorn kontinuierlich bewegen zu lassen, setzten wir unter *control* den Befehl *forever* ein. Allerdings bewegte sich das Unicorn immens schnell. Um dies zu verlangsamen setzten wir direkt danach unter *control* den Befehl *wait 1 sec* ein. Danach bewegte sich das Unicorn in einem angenehmen Tempo zufällig weiter. Als wir versuchen wollten, dass das *costume* immer wieder neu verscchwindet, setzten wir den Befehl *change **ghost** effect by **25*** ein. Leider verschwand das Unicorn daraufhin komplett und wir konnten es nicht wieder sichtbar machen. Dann kamen wir auf die Idee für den Wert **25** eine negative Zahl einzusetzen. Dies klappte und das Unicorn wurde wieder erkennbar.
+
+![ghost](https://user-images.githubusercontent.com/42734752/45365755-85ae6980-b5dd-11e8-8c16-89430781dd55.jpg)
+
+So wussten wir zwar, wo sich unser *costume* befindet, aber es war nicht in seiner Original-Form. Dann entdeckten wir den Befehl *clear graphic effects* und setzten diesen ein. Glücklicherweise konnte man das Unicorn damit wieder deutlich in Original-Form sehen.
+
 
 
 #17.09.2018
