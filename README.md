@@ -40,7 +40,7 @@ So wussten wir zwar, wo sich unser *costume* befindet, aber es war nicht in sein
 
 
 
-#17.09.2018
+# 17.09.2018
 
 Diesmal haben wir ein simples Spiel programmiert. Wir haben ein *Costume (Costume 1/Pfeil)*, welches man mit Hilfe der Pfeile der Tastatur bewegen kann, eingefügt. 
 
@@ -52,6 +52,10 @@ Dazu haben wir ein zweites *Costume (Costume 2/Apfel)* eingefügt, welches sich 
 
 Das Problem besteht darin, dass der Pfeil sich nicht nur, wie gewünscht einmal vergrößert, sondern mehrmals. Dies führt dazu, dass der Pfeil schnell, zu groß für den Bildschirm wird. 
 
-#18.09.2018
+# 18.09.2018
 
 Heute haben wir die Sparte der Grafik bei Snap! ausprobiert. Das Sprite sollte als Stift fungieren. Dies konnte man durch den Block *Pen* einstellen, mit gewünschter Farbe. Zusätzlich sollte das Sprite natürlich mit der Tastatur bewegt werden können, was wir, wie bei den Projekten davor, bewerkstelligten. So konnte man nun mit Hilfe der Pfeiltasten malen. 
+
+# 22.10.18
+
+Heute sind wir das Problem vom 17.09 angegangen, um unser Spiel zu optimieren. Dafür haben wir für unseren *Apfel(Costume 2)* gesteass er, wenn er Pfeil berührt 0.1 sek wartet und dann zu random position geht. hat funktionuiert
