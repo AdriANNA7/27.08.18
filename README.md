@@ -58,17 +58,25 @@ Als ersten Schritt, legten wir einen Account an. Es ist wichtig einen eigenen Ac
 
 # 22.10.18
 
-  Heute sind wir das Problem vom 17.09 angegangen, um unser Spiel zu optimieren. Dafür haben wir für unseren *Apfel(Costume 2)* gesteass er, wenn er Pfeil berührt 0.1 sek wartet und dann zu random position geht. hat funktionuiert
+  Heute sind wir das Problem vom 17.09 angegangen, um unser Spiel zu optimieren. Dafür haben wir für unseren *Apfel(Costume 2)* eingestellt, dass er, wenn er den Pfeil(Costume1) berührt 0.1 sek wartet und dann zu *random position* geht. Nach einigem Ausprobieren haben wir dies endlich geschafft.
+  
+  ![problemapfel](https://user-images.githubusercontent.com/42734752/47641902-8daf7200-db67-11e8-8999-f4ee83d3f9cd.jpg)
 
 
 # 23.10.18
 
-  Am diesen Unterricht arbeiten wir mit unserem Spiel weiter. Für die Zukunft, wollen wir der Design unseres Spieles ändern, deshalb kommen wir zu diesem ein anderes Mal zurück. 
-  Für unseren Spiel wollen wir eine Spielstandanzeige. Dafür haben wir eine neue Variable *score* erstellt und sie bei 0 eingestellt. 
+  In dieser Unterrichtsstunde arbeiten wir an unserem Spiel weiter. Für die Zukunft, wollen wir das Design unseres Spieles ändern. Deshalb kommen wir zu diesem Punkt ein anderes Mal zurück. 
+  Für unser Spiel wollen wir eine Spielstandanzeige einfügen. Dafür haben wir eine neue Variable *score* erstellt und sie bei 0 eingestellt. 
   
   ![score1](https://user-images.githubusercontent.com/42734752/47366796-b2769600-d6de-11e8-8583-3d49ca9c8015.jpg)
 
-   Wenn *score* größer als gegebene Einheit wird, ändert sich unseres *Costume1*(Pfeile) in ein enderes *Costume*, das wir davor importiert haben. 
+   Wenn *score* größer als die gegebene Einheit wird, ändert sich unser *Costume1*(Pfeile) in ein anderes *Costume*, das wir davor importiert haben. 
    
   ![score](https://user-images.githubusercontent.com/42734752/47366682-7e02da00-d6de-11e8-833d-3162a416cf11.jpg)
+  
+# 29.10.18
+
+Heute wollten wir zusätzliche Tools einfügen. um das Spiel spannender zu gestalten. Dafür haben wir eingestellt, dass der Apfel(Costume 2), sich nach einem *Score* von 30 schneller bewegt.  
+  
+![apfelbeschleunigung](https://user-images.githubusercontent.com/42734752/47643411-b89bc500-db6b-11e8-96f1-9f2f1c4090f9.jpg)
   
