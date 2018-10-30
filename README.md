@@ -80,3 +80,7 @@ Heute wollten wir zusätzliche Tools einfügen. um das Spiel spannender zu gesta
   
 ![apfelbeschleunigung](https://user-images.githubusercontent.com/42734752/47643411-b89bc500-db6b-11e8-96f1-9f2f1c4090f9.jpg)
   
+  Danach wollten wir, dass bei einem *Score* von 30, das erreichen dieses *scores* gefeiert wird in Form einer goldenen 30, welches im Zentrum für eine Sekunde erscheint. Zuerst hatten wir Probleme damit, dass die 30 wieder verschwindet, damit man weiter spielen kann. Dies war der Fall, weil wir den Befehl bei *score* >=30 eingestellt hatten und es wiederholte es sich ständig, da es ja ab da immer größer als 30 war. Dies änderten wir zu *score* = 30, damit es nur bei dem *Score* erscheint.
+  
+  ![score 30](https://user-images.githubusercontent.com/42734752/47724379-d85be780-dc56-11e8-9af7-61bd4cd80160.jpg)
+
