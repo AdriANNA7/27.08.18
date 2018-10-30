@@ -83,4 +83,14 @@ Heute wollten wir zusätzliche Tools einfügen. um das Spiel spannender zu gesta
   Danach wollten wir, dass bei einem *Score* von 30, das erreichen dieses *scores* gefeiert wird in Form einer goldenen 30, welches im Zentrum für eine Sekunde erscheint. Zuerst hatten wir Probleme damit, dass die 30 wieder verschwindet, damit man weiter spielen kann. Dies war der Fall, weil wir den Befehl bei *score* >=30 eingestellt hatten und es wiederholte es sich ständig, da es ja ab da immer größer als 30 war. Dies änderten wir zu *score* = 30, damit es nur bei dem *Score* erscheint.
   
   ![score 30](https://user-images.githubusercontent.com/42734752/47724379-d85be780-dc56-11e8-9af7-61bd4cd80160.jpg)
+  
+  # 30.10.18
+  
+  Bis jetzt änderte sich der *Score*, je nach dem wie lange *Sprite 1* das *Sprite 2* berührte. Deshalb wurde der *Score* immer unterschiedlich erhöht. Dies stellte aber ein Problem dar, da man manchmal nich exakt einen *Score* von 30 erreichen konnte. Außerdem war es viel zu ungenau für ein Spiel. Deswegen haben wir den Block, dass sich der Score um 1 erhöht von dem Script des ersten Sprites zum Script des ZWeiten Sprites verschoben. So erhöht sich der Score jedes mal nur um 1.
+  
+![score 1 richtig](https://user-images.githubusercontent.com/42734752/47727968-bade4c00-dc5d-11e8-8f45-a98fc57f87de.jpg)
 
+  
+  Zusätzlich haben wir das Konzept unseres Spieles ein wenig verändert. Wir wollen eine Art Evolution darstellen. Das heißt wir beginnen mit dem *Costume* eines Einzellers, welcher das *Costume 2* in Form einer Alge, Unterwasser (*Stage*) fangen muss. Bei bestimmten *Scores* entwickelt sich das *Costume 1* weiter. Das heißt, es wecheslt das *Costume*. Dazu wird auch der Hintergrund (*Stage*) in Etappen geändert. Wie auch bei der Evolution vom Wasser zum Land.
+ 
+ 
