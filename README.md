@@ -94,3 +94,8 @@ Heute wollten wir zusätzliche Tools einfügen. um das Spiel spannender zu gesta
   Zusätzlich haben wir das Konzept unseres Spieles ein wenig verändert. Wir wollen eine Art Evolution darstellen. Das heißt wir beginnen mit dem *Costume* eines Einzellers, welcher das *Costume 2* in Form einer Alge, Unterwasser (*Stage*) fangen muss. Bei bestimmten *Scores* entwickelt sich das *Costume 1* weiter. Das heißt, es wecheslt das *Costume*. Dazu wird auch der Hintergrund (*Stage*) in Etappen geändert. Wie auch bei der Evolution vom Wasser zum Land.
  
  
+ Dann haben wir herausgefunden, dass unsere "Lösung" vom 29.10 für das Problem, dass das goldene 30 nicht verschwindet, immer noch nicht behoben ist. Deswegeb fügten wir zu dem Befehl *Hide* den Befehl *forever* ein. Nun verschwindet das goldene 30 tatsächlich jedes mal wieder.
+ 
+ ![30 losung](https://user-images.githubusercontent.com/42734752/47728483-ba928080-dc5e-11e8-8c37-1de91da2df6f.jpg)
+ 
+ 
