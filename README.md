@@ -106,3 +106,7 @@ Heute wollten wir zusätzliche Tools einfügen. um das Spiel spannender zu gesta
 Dazu wollten wir, dass sich der Hintergrund, passenden zum Krebs-Costume, zu einem Sandstrand ändert. Dies bewerkstelligten wir genau, wie bei den *Costumes*.
 
 ![stage sand und krebs screen](https://user-images.githubusercontent.com/42734752/48072826-afe76680-e1dd-11e8-968a-2a053c7fb730.png)
+
+Außerdem wollten wir die Befehle für das *Costume* der goldenen 30 noch einmal ändern, da wir immer noch nicht ganz zufrieden mit der aktuellen Situation waren. Dafür haben wir eingefügt, dass das *Costume* nach 2 Sekunden eine Größe von 0 Proznet annimt, also verschwindet. Wenn man das Spiel neu anfängt, ist springt es wieder zu 100 Prozent, ist aber versteckt.
+
+![30 spiel](https://user-images.githubusercontent.com/42734752/48073886-f50c9800-e1df-11e8-9702-34c25f45378c.png)
