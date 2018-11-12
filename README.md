@@ -110,3 +110,7 @@ Dazu wollten wir, dass sich der Hintergrund, passenden zum Krebs-Costume, zu ein
 Außerdem wollten wir die Befehle für das *Costume* der goldenen 30 noch einmal ändern, da wir immer noch nicht ganz zufrieden mit der aktuellen Situation waren. Dafür haben wir eingefügt, dass das *Costume* nach 2 Sekunden eine Größe von 0 Proznet annimt, also verschwindet. Wenn man das Spiel neu anfängt, ist springt es wieder zu 100 Prozent, ist aber versteckt.
 
 ![30 spiel](https://user-images.githubusercontent.com/42734752/48073886-f50c9800-e1df-11e8-9702-34c25f45378c.png)
+
+# 12.11.18
+
+Heute wollten wir das Schwierigkeitslevel des Spieles erhöhen. Es sollte ein Sprite geben, welches unser Sprite1 "tötet" man soll als auch verlieren können. dafür haben wir ein neues Sprite erstellt, welches auf der x-Achse gleitet und das random auf der y-Achse und sich dieses beliebig wiederholt. Wenn Sprite 1 dieses neue Sprite berührt, sagt Sprite 1 Game over, verschwindet und alle Blöcke werden gestoppt.
