@@ -113,4 +113,8 @@ Außerdem wollten wir die Befehle für das *Costume* der goldenen 30 noch einmal
 
 # 12.11.18
 
-Heute wollten wir das Schwierigkeitslevel des Spieles erhöhen. Es sollte ein Sprite geben, welches unser Sprite1 "tötet" man soll als auch verlieren können. dafür haben wir ein neues Sprite erstellt, welches auf der x-Achse gleitet und das random auf der y-Achse und sich dieses beliebig wiederholt. Wenn Sprite 1 dieses neue Sprite berührt, sagt Sprite 1 Game over, verschwindet und alle Blöcke werden gestoppt.
+![gameover](https://user-images.githubusercontent.com/42734752/48418512-c483ab80-e755-11e8-94e9-5e80eea4ab35.jpg)
+ Heute wollten wir das Schwierigkeitslevel des Spieles erhöhen. Es sollte ein Sprite geben, welches unser Sprite1 "tötet" man soll als auch verlieren können. dafür haben wir ein neues Sprite erstellt, welches auf der x-Achse gleitet und das random auf der y-Achse und sich dieses beliebig wiederholt. Wenn Sprite 1 dieses neue Sprite berührt, sagt Sprite 1 Game over, verschwindet und alle Blöcke werden gestoppt.
+
+![gameover](https://user-images.githubusercontent.com/42734752/48418512-c483ab80-e755-11e8-94e9-5e80eea4ab35.jpg)
+
