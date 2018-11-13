@@ -113,8 +113,30 @@ Außerdem wollten wir die Befehle für das *Costume* der goldenen 30 noch einmal
 
 # 12.11.18
 
-![gameover](https://user-images.githubusercontent.com/42734752/48418512-c483ab80-e755-11e8-94e9-5e80eea4ab35.jpg)
- Heute wollten wir das Schwierigkeitslevel des Spieles erhöhen. Es sollte ein Sprite geben, welches unser Sprite1 "tötet" man soll als auch verlieren können. dafür haben wir ein neues Sprite erstellt, welches auf der x-Achse gleitet und das random auf der y-Achse und sich dieses beliebig wiederholt. Wenn Sprite 1 dieses neue Sprite berührt, sagt Sprite 1 Game over, verschwindet und alle Blöcke werden gestoppt.
+ Heute wollten wir das Schwierigkeitslevel des Spieles erhöhen. Es sollte ein Sprite geben, welches unser Sprite1 "tötet" man soll also auch verlieren können. Dafür haben wir ein neues Sprite erstellt, welches auf der x-Achse gleitet und das random auf der y-Achse und sich dieses beliebig wiederholt.  
+ 
+![hai](https://user-images.githubusercontent.com/42734752/48418742-5d1a2b80-e756-11e8-821a-8e043ccbe962.jpg)
+ 
+ Wenn Sprite 1 dieses neue Sprite berührt, sagt Sprite 1 Game over, verschwindet und alle Blöcke werden gestoppt.
 
 ![gameover](https://user-images.githubusercontent.com/42734752/48418512-c483ab80-e755-11e8-94e9-5e80eea4ab35.jpg)
 
+# 13.11.18
+
+In diesen Unterricht, wollten wir das *Costume* des "bösen Sprites" eistellen. Dies sollte einen Hai darstellen, der das Maul aufreißt wenn er *Sprite1* berührt. 
+
+![haimaul](https://user-images.githubusercontent.com/42734752/48419941-783a6a80-e759-11e8-8542-a884873916b0.jpg)
+
+Damit kein hai erscheint, wenn wir die Stage am Strand haben, lassen wir das *Script* des Hais stoppen, da wir noch überlegen, welche Schwierigkeit wir am Land machen.
+
+![hai_stop](https://user-images.githubusercontent.com/42734752/48421522-f4827d00-e75c-11e8-9468-825267ebbc80.jpg)
+
+Dazu wollten wir das Spiel hochladen, damit wir es ausprobieren können. Dafür haben wir einen "tiny" URL des Projektes kreirt. 
+(https://snap.berkeley.edu/snapsource/snap.html#present:Username=adrianna7&ProjectName=game%205)
+
+![tiny url 2](https://user-images.githubusercontent.com/42734752/48422765-a28f2680-e75f-11e8-82b7-531493cf4152.jpg)
+
+Dann haben wir es online ausprobiert. 
+
+
+![game online](https://user-images.githubusercontent.com/42734752/48422927-e97d1c00-e75f-11e8-9a1c-f8774ed84557.jpg)
