@@ -131,7 +131,7 @@ Damit kein hai erscheint, wenn wir die Stage am Strand haben, lassen wir das *Sc
 
 ![hai_stop](https://user-images.githubusercontent.com/42734752/48421522-f4827d00-e75c-11e8-9468-825267ebbc80.jpg)
 
-Dazu wollten wir das Spiel hochladen, damit wir es ausprobieren können. Dafür haben wir einen "tiny" URL des Projektes kreirt. 
+Dazu wollten wir das Spiel hochladen, damit wir es ausprobieren können. Dafür haben wir einen ["tiny" URL](https://tinyurl.com/) des Projektes kreirt. 
 (https://snap.berkeley.edu/snapsource/snap.html#present:Username=adrianna7&ProjectName=game%205)
 
 ![tiny url 2](https://user-images.githubusercontent.com/42734752/48422765-a28f2680-e75f-11e8-82b7-531493cf4152.jpg)
