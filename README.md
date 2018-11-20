@@ -6,6 +6,10 @@
 
 ## Einleitung<a name="1"></a>
 
+Auf dieser Seite protokolieren wir die Informatikstunden im ersten Semester des Schuljahres 2018/19. Diese Informatikstunden sind die ersten Stunden in denen wir uns mit dem Thema Programmieren auseinandersetzen. Etwas ähnliches haben wir zuvor noch nie gemacht. Im Folgendem berichten wir von unseren Erkenntnissen, Fortschritten und Problemen beim Programmieren. Dazu versuchen wir möglichst detailliert und verständlich unsere Arbeitsschritte darzustellen.
+
+## Stundenblog<a name="2"></a>
+
 # 27.08.18
 
   Die letzten beiden Stunden haben wir uns erst Tutorials zur Benutzung von GreenFoot und die Arduinosprache angesehen. Diese Stunde beschäftigten wir uns mit **GitHub**. Da wir noch Anfänger sind, wollen wir wissen, wie man den Stundenblog auf GitHub erstellen kann. Wir schauten uns [GitHub Help](https://help.github.com/articles/basic-writing-and-formatting-syntax/#quoting-code) an, um das grundlegende Schreibsyntax zu lernen. Dadurch haben wir erfahren, wie man die Screenshots oder Links einfügen kann. Wir haben uns darüber informiert, was *Branching* und *Commits* darstellen. 
