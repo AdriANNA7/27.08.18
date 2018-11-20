@@ -148,3 +148,4 @@ Dann haben wir es online ausprobiert.
 
 Heute haben wir das Spiel wieder weiter optimiert. Bislang drehte sich das Sprite immer in die jeweilige Richtung in die es sich auch bewegte. Wir fanden es aber ansehlicher, wenn dies nur bei der Bewegung nach links und nach rechts passierte. Dafür haben wir unter *Motion* einige Änderungen vorgenommen, sodass es sich nur bei *arrow left and right* mit in die *direction pointed*.
 
+![sprite bewegung](https://user-images.githubusercontent.com/42734752/48778932-c2ca6280-ecd6-11e8-81e5-791cef84d781.jpg)
