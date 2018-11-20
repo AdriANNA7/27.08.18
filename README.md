@@ -4,6 +4,10 @@
 
 [2. Stundenblog](#2)
 
+[3. Stichwortverzeichnis](#3)
+
+[4. Projektvorstellung](#4)
+
 ## Einleitung<a name="1"></a>
 
 Auf dieser Seite protokolieren wir die Informatikstunden im ersten Semester des Schuljahres 2018/19. Diese Informatikstunden sind die ersten Stunden in denen wir uns mit dem Thema Programmieren auseinandersetzen. Etwas ähnliches haben wir zuvor noch nie gemacht. Im Folgendem berichten wir von unseren Erkenntnissen, Fortschritten und Problemen beim Programmieren. Dazu versuchen wir möglichst detailliert und verständlich unsere Arbeitsschritte darzustellen.
