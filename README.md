@@ -98,7 +98,7 @@ Heute wollten wir zusätzliche Tools einfügen. um das Spiel spannender zu gesta
  
  ![30 losung](https://user-images.githubusercontent.com/42734752/47728483-ba928080-dc5e-11e8-8c37-1de91da2df6f.jpg)
  
- # 06.05.18
+ # 06.11.18
  Heute haben wir weiter *Costumes* eingefügt, einen Tintenfisch und einen Krebs. Dabei mussten wir beachten, dass der *Costume-Switch* endet, wenn ein weiteres *Costume* erscheint. Deswegen mussten wir zu *when score > 15* noch *when score < 31* hinzufügen, damit dann das nächste *Costume* erscheinen kann.
  
  ![verschiedene costumes](https://user-images.githubusercontent.com/42734752/48072289-7bbf7600-e1dc-11e8-8f33-7618fb971847.png)
@@ -140,3 +140,9 @@ Dazu wollten wir das Spiel hochladen, damit wir es ausprobieren können. Dafür 
 Dann haben wir es online ausprobiert. 
 
 ![game online](https://user-images.githubusercontent.com/42734752/48422927-e97d1c00-e75f-11e8-9a1c-f8774ed84557.jpg)
+
+
+# 20.11.18
+
+Heute haben wir das Spiel wieder weiter optimiert. Bislang drehte sich das Sprite immer in die jeweilige Richtung in die es sich auch bewegte. Wir fanden es aber ansehlicher, wenn dies nur bei der Bewegung nach links und nach rechts passierte. Dafür haben wir unter *Motion* einige Änderungen vorgenommen, sodass es sich nur bei *arrow left and right* mit in die *direction pointed*.
+
