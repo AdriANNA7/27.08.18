@@ -16,13 +16,18 @@ Auf dieser Seite protokolieren wir die Informatikstunden im ersten Semester des 
 
 # 27.08.18
 
-  Die letzten beiden Stunden haben wir uns erst Tutorials zur Benutzung von GreenFoot und die Arduinosprache angesehen. Diese Stunde beschäftigten wir uns mit **GitHub**. Da wir noch Anfänger sind, wollen wir wissen, wie man den Stundenblog auf GitHub erstellen kann. Wir schauten uns [GitHub Help](https://help.github.com/articles/basic-writing-and-formatting-syntax/#quoting-code) an, um das grundlegende Schreibsyntax zu lernen. Dadurch haben wir erfahren, wie man die Screenshots oder Links einfügen kann. Wir haben uns darüber informiert, was *Branching* und *Commits* darstellen. 
+  Die letzten beiden Stunden haben wir uns erst Tutorials zur Benutzung von *GreenFoot* und über die *Arduinosprache* angesehen, um uns erstmal einen allgemeinen Überblick zu verschaffen und eine bessere Vorstellung vom Programmieren an sich zu bekommen. 
+Diese Stunde beschäftigten wir uns mit **GitHub**. Da wir noch Anfänger sind, wollen wir wissen, wie man den Stundenblog auf GitHub erstellen kann. Wir schauten uns [GitHub Help](https://help.github.com/articles/basic-writing-and-formatting-syntax/#quoting-code) an, um das grundlegende Schreibsyntax zu lernen. Dadurch haben wir erfahren, wie man die Screenshots oder Links einfügen kann. Dazu haben wir uns darüber informiert, was *Branching* und *Commits* darstellen. 
 
 
 # 28.08.18
 
-  Diese Doppelstunde haben wir uns mit dem Programm **Snap!** beschäftigt. Mit dem Programm **Snap!** kann man graphisch programmieren.  Als Einführung haben wir uns das Programm angeschaut und verschiedene Sachen ausprobiert. Wir setzten uns mit den Befehlen auseinander und stellten fest, dass wir verschiedene Akteure (sog. Sprites) mit Hilfe der Tastatur kontrollieren können.
-Wir wollten einen Hund horizontal bewegen lassen. Dafür haben wir auf dem Script den Befehl, unter *Control* Taste 0, *move 10 steps (Motion)* eingefügt.
+  Diese Doppelstunde haben wir uns mit dem Programm **Snap!** beschäftigt. Mit dem Programm **Snap!** kann man graphisch programmieren.  Als Einführung haben wir uns das Programm angeschaut und verschiedene Sachen ausprobiert. Wir setzten uns mit den Befehlen auseinander und stellten fest, dass wir verschiedene Akteure (sog. *Sprites*) mit Hilfe der Tastatur kontrollieren können.
+Wir wollten einen Hund horizontal bewegen lassen. Die Sprites sind grundsätzlich normale Pfeile und haben kein besonderes Aussehen. Um diese Sprites anschaulicher zu gestalten, kann man dafür entweder bei der Menüleiste bereits vorgegebene Figuren unter *Costumes* einfügen oder bereits heruntergeladene unter *Import*.
+
+![informatik costumes](https://user-images.githubusercontent.com/42734752/48846290-07b9cc00-ed9f-11e8-92a2-39221e3ed29b.png)
+
+Wir haben bei diesem Versuch eine Hund aus dem Internet importiert. Dafür ist es wichtig, dass es sich um ein PNG handelt, also transparent ist. Um das Sprite bewegen zu lassen, haben wir auf dem Script den Befehl, unter *Control* Taste 0, *move 10 steps (Motion)* eingefügt.
 
 ![1](https://user-images.githubusercontent.com/42734752/44729547-5e38a680-aadf-11e8-9c5f-0ea227e6f0d4.jpg)
 
