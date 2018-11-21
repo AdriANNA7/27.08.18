@@ -31,7 +31,7 @@ Wir haben bei diesem Versuch eine Hund aus dem Internet importiert. Dafür ist e
 
 ![1](https://user-images.githubusercontent.com/42734752/44729547-5e38a680-aadf-11e8-9c5f-0ea227e6f0d4.jpg)
 
-  Dazu sollte der Hund "Hello" für zwei Sekunden sagen. Dafür haben wir, unter *Control Leertaste*, den Befehl von *Looks* *say hello for 2 seconds* hinzugefügt.
+  Dazu sollte der Hund "Hello" für zwei Sekunden sagen. Dafür haben wir, unter *Control: Leertaste*, den Befehl von *Looks* *say hello for 2 seconds* hinzugefügt.
 
 ![2hello](https://user-images.githubusercontent.com/42734752/45362670-ba1e2780-b5d5-11e8-8d06-58754d4527bb.jpg)
 
@@ -184,3 +184,8 @@ Dann haben wir es online ausprobiert.
 Heute haben wir das Spiel wieder weiter optimiert. Bislang drehte sich das Sprite immer in die jeweilige Richtung in die es sich auch bewegte. Wir fanden es aber ansehlicher, wenn dies nur bei der Bewegung nach links und nach rechts passierte. Dafür haben wir unter *Motion* einige Änderungen vorgenommen, sodass es sich nur bei *arrow left and right* mit in die *direction pointed*.
 
 ![sprite bewegung](https://user-images.githubusercontent.com/42734752/48778932-c2ca6280-ecd6-11e8-81e5-791cef84d781.jpg)
+
+
+## Stichwortverzeichnis<a name="3"></a>
+
+
