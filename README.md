@@ -76,11 +76,15 @@ Wir haben noch weiter Sachen ausprobiert, doch waren durch diesen Vorfall frustr
 
 ![apfelspiel](https://user-images.githubusercontent.com/42734752/45690620-15609480-bb57-11e8-9381-96494b7a5ce3.jpg)
 
-  Dazu haben wir ein zweites *Costume (Costume 2/Apfel)* eingefügt, welches sich zufällig auf dem Bildschirm bewegt und jedesmal vorher verschwindet und dann an seiner neuen Position sichtbar wird. Lenkt man *Costume 1* zu *Costume 2* und berührt dieses, wird *Costume 1* größer. 
+  Dazu haben wir ein zweites *Costume (Costume 2/Apfel)* eingefügt, welches sich zufällig auf dem Bildschirm bewegt und jedesmal vorher verschwindet und dann an seiner neuen Position sichtbar wird. Dafür haben wir die Befehle *go to random position* eingefügt. Dann sollte er eine Sekunde warten (Befehl:*wait 1 sec*), bis er dann wieder durch den Befehl *show* sichtbar wird. Er ist dann fünf Sekunden lang sichtbar (Befehl: *wait 5 sec*) ist, damit man den Apfel mit dem ersten Sprite fangen kann. Das ganze sollte sich ständig (unendlich) wiederholen, weshalb wir dieses *Script* mit dem Befehl *forever* umschlossen.
 
   ![apfelspiel2](https://user-images.githubusercontent.com/42734752/45690638-214c5680-bb57-11e8-8203-81d8caf1d415.jpg)
 
-  Das Problem besteht darin, dass der Pfeil sich nicht nur, wie gewünscht einmal vergrößert, sondern mehrmals. Dies führt dazu, dass der Pfeil schnell, zu groß für den Bildschirm wird. 
+Lenkt man *Costume 1* zu *Costume 2* und berührt dieses, wird *Costume 1* größer. Um dies zu erreichen, haben wir bei dem Block des ersten Sürites unter *Control* den Befehl *when touching Sprite 2* + *change size by 1* eingefügt. *Sprite 1* vergrößert sich also immer wenn es *Sprite 2* berührt um 1.
+
+![informatik apfel](https://user-images.githubusercontent.com/42734752/48849606-ff658f00-eda6-11e8-827b-4c40b50e4689.png)
+
+  Das Problem besteht darin, dass der Pfeil sich nicht nur wie gewünscht einmal vergrößert, sondern mehrmals. Dies führt dazu, dass der Pfeil schnell, zu groß für den Bildschirm wird. 
 
 # 18.09.18
 
