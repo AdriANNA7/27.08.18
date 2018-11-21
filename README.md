@@ -107,7 +107,7 @@ Das Sprite sollte als Stift fungieren. Dies konnte man durch den Block *Pen* ein
   
   ![score1](https://user-images.githubusercontent.com/42734752/47366796-b2769600-d6de-11e8-8583-3d49ca9c8015.jpg)
 
-   Wenn *Score* größer als die gegebene Einheit wird, ändert sich unser *Costume1*(Pfeile) in ein anderes *Costume*, das wir davor importiert haben. 
+   Wenn *Score* größer als die gegebene Einheit wird (*when score>30*), ändert sich unser *Costume1*(Pfeile) in ein anderes *Costume*, das wir davor importiert haben durch den Befehl *Switch to costume [...]*.
    
   ![score](https://user-images.githubusercontent.com/42734752/47366682-7e02da00-d6de-11e8-833d-3162a416cf11.jpg)
   
@@ -117,7 +117,7 @@ Heute wollten wir zusätzliche Tools einfügen, um das Spiel spannender zu gesta
   
 ![apfelbeschleunigung](https://user-images.githubusercontent.com/42734752/47643411-b89bc500-db6b-11e8-96f1-9f2f1c4090f9.jpg)
   
-  Danach wollten wir, dass bei einem *Score* von 30, das erreichen dieses *Scores* gefeiert wird in Form einer goldenen 30, welches im Zentrum für eine Sekunde erscheint. Zuerst hatten wir Probleme damit, dass die 30 wieder verschwindet, damit man weiter spielen kann. Dies war der Fall, weil wir den Befehl bei *Score* >=30 eingestellt hatten und es wiederholte es sich ständig, da es ja ab da immer größer als 30 war. Dies änderten wir zu *Score* = 30, damit es nur bei dem *Score* erscheint.
+  Danach wollten wir, dass bei einem *Score* von 30, das erreichen dieses *Scores* gefeiert wird in Form einer goldenen 30, welche im Zentrum für eine Sekunde erscheint. Zuerst hatten wir Probleme damit, dass die 30 wieder verschwindet, damit man weiter spielen kann. Dies war der Fall, weil wir den Befehl bei *Score* *>=30* eingestellt hatten und es wiederholte es sich ständig, da es ja ab da immer größer als 30 war. Dies änderten wir zu *Score* *= 30*, damit es nur bei dem *Score* erscheint.
   
   ![score 30](https://user-images.githubusercontent.com/42734752/47724379-d85be780-dc56-11e8-9af7-61bd4cd80160.jpg)
   
@@ -136,7 +136,7 @@ Heute wollten wir zusätzliche Tools einfügen, um das Spiel spannender zu gesta
  ![30 losung](https://user-images.githubusercontent.com/42734752/47728483-ba928080-dc5e-11e8-8c37-1de91da2df6f.jpg)
  
  # 06.11.18
- Heute haben wir weiter *Costumes* eingefügt, einen Tintenfisch und einen Krebs. Dabei mussten wir beachten, dass der *Costume-Switch* endet, wenn ein weiteres *Costume* erscheint. Deswegen mussten wir zu *when score > 15* noch *when score < 31* hinzufügen, damit dann das nächste *Costume* erscheinen kann.
+ Diese Stunde haben wir weiter *Costumes* eingefügt, einen Tintenfisch und einen Krebs. Dabei mussten wir beachten, dass der *Costume-Switch* endet, wenn ein weiteres *Costume* erscheint. Deswegen mussten wir zu *when score > 15* noch *when score < 31* hinzufügen, damit dann das nächste *Costume* erscheinen kann.
  
  ![verschiedene costumes](https://user-images.githubusercontent.com/42734752/48072289-7bbf7600-e1dc-11e8-8f33-7618fb971847.png)
 
@@ -144,27 +144,27 @@ Dazu wollten wir, dass sich der Hintergrund, passenden zum Krebs-Costume, zu ein
 
 ![stage sand und krebs screen](https://user-images.githubusercontent.com/42734752/48072826-afe76680-e1dd-11e8-968a-2a053c7fb730.png)
 
-Außerdem wollten wir die Befehle für das *Costume* der goldenen 30 noch einmal ändern, da wir immer noch nicht ganz zufrieden mit der aktuellen Situation waren. Dafür haben wir eingefügt, dass das *Costume* nach 2 Sekunden eine Größe von 0 Proznet annimt, also verschwindet. Wenn man das Spiel neu anfängt, ist springt es wieder zu 100 Prozent, ist aber versteckt.
+Außerdem wollten wir die Befehle für das *Costume* der goldenen 30 noch einmal ändern, da wir immer noch nicht ganz zufrieden mit der aktuellen Situation waren. Dafür haben wir eingefügt, dass das *Costume* nach 2 Sekunden eine Größe von 0 Proznet annimmt, also verschwindet. Wenn man das Spiel neu anfängt, springt es wieder zu 100 Prozent, ist aber versteckt.
 
 ![30 spiel](https://user-images.githubusercontent.com/42734752/48073886-f50c9800-e1df-11e8-9702-34c25f45378c.png)
 
 # 12.11.18
 
- Heute wollten wir das Schwierigkeitslevel des Spieles erhöhen. Es sollte ein Sprite geben, welches unser Sprite1 "tötet" man soll also auch verlieren können. Dafür haben wir ein neues Sprite erstellt, welches auf der x-Achse gleitet und das random auf der y-Achse und sich dieses beliebig wiederholt.  
+ Heute wollten wir das Schwierigkeitslevel des Spieles erhöhen. Es sollte ein Sprite geben, welches unser Sprite 1 "tötet". Man soll also auch verlieren können. Dafür haben wir ein neues Sprite erstellt, welches auf der x-Achse gleitet und das random auf der y-Achse und sich dieses beliebig wiederholt. Dafür haben wir in den Befehl *forever*, da es immer wieder auftauchen soll, den Befehl *set x to -350* eingefügt, damit es von der linken Bildschirmseite aus startet und vorher nicht zu sehen ist, wie auch den Befehl *point in direction 90* also, dass das Sprite nach rechts zeigt und es realistisch aussieht. Damit es wie ein Fisch im Wasser gleitet, wird der Befehl *glide 10 sec to x: 350 y: **pick random -180 to 100***) verwendet. X: 350 wird verwendet, damit das Sprite komplett verschwindet und die Y_koordinaten werden ständig random in einem bestimmten Bereich gewählt. 
  
 ![hai](https://user-images.githubusercontent.com/42734752/48418742-5d1a2b80-e756-11e8-821a-8e043ccbe962.jpg)
  
- Wenn Sprite 1 dieses neue Sprite berührt, sagt Sprite 1 Game over, verschwindet und alle Blöcke werden gestoppt.
+ Wenn Sprite 1 dieses neue Sprite berührt, sagt Sprite 1 Game over, verschwindet und alle Blöcke werden gestoppt. Dies stellten wir bei dem Block des ersten Sprites ein.
 
 ![gameover](https://user-images.githubusercontent.com/42734752/48418512-c483ab80-e755-11e8-94e9-5e80eea4ab35.jpg)
 
 # 13.11.18
 
-In diesen Unterricht, wollten wir das *Costume* des "bösen Sprites" eistellen. Dies sollte einen Hai darstellen, der das Maul aufreißt wenn er *Sprite1* berührt. 
+In diesen Unterricht, wollten wir das *Costume* des "bösen Sprites" eistellen. Dies sollte einen Hai darstellen, der das Maul aufreißt wenn er *Sprite1* berührt. Dafür haben wir ein zweites *Costume* für das neue Sprite importiert, welchs genau wie das Original-Sprite aussieht, bloß mit aufgerissenem Maul. Das *Costume* wird nur geändert, wenn es das erste Sprite berührt (*when touching sprite 1* + *switch to costume shark b*), wartet dann eine Sekunde (*wait 1 sec*) und wechselt dann wieder zum Original-Sprite. 
 
 ![haimaul](https://user-images.githubusercontent.com/42734752/48419941-783a6a80-e759-11e8-8542-a884873916b0.jpg)
 
-Damit kein hai erscheint, wenn wir die Stage am Strand haben, lassen wir das *Script* des Hais stoppen, da wir noch überlegen, welche Schwierigkeit wir am Land machen.
+Damit kein Hai erscheint, wenn wir die *Stage* am Strand haben, lassen wir das *Script* des Hais ab einem Score über 30 stoppen, da wir noch überlegen, welche Schwierigkeit wir am Land machen.
 
 ![hai_stop](https://user-images.githubusercontent.com/42734752/48421522-f4827d00-e75c-11e8-9468-825267ebbc80.jpg)
 
