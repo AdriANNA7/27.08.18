@@ -88,11 +88,14 @@ Lenkt man *Costume 1* zu *Costume 2* und berührt dieses, wird *Costume 1* grö�
 
 # 18.09.18
 
-  Heute haben wir die Sparte der Grafik bei Snap! ausprobiert. Das Sprite sollte als Stift fungieren. Dies konnte man durch den Block *Pen* einstellen, mit gewünschter Farbe. Zusätzlich sollte das Sprite natürlich mit der Tastatur bewegt werden können, was wir, wie bei den Projekten davor, bewerkstelligten. So konnte man nun mit Hilfe der Pfeiltasten malen. 
+Da wir bei dem Problem von voriger Stunde nicht weiter kamen, haben wir heute die Sparte der Grafik bei Snap! ausprobiert, um den Kopf frei zu bekommen und neue Ideen für eine Lösung zu finden. 
+Das Sprite sollte als Stift fungieren. Dies konnte man durch den Block *Pen* einstellen, mit gewünschter Farbe (Befehle: *set pen color to [...] + *pen down*). Zusätzlich sollte das Sprite natürlich mit der Tastatur bewegt werden können, was wir, wie bei den Projekten davor, bewerkstelligten. So konnte man nun mit Hilfe der Pfeiltasten malen. Um zuvorige Zeichnungen zu löschen und neu anfangen zu können, musste der Befehl *clear* beim drücken der Leertaste und der grünen Flagge, welche das Spiel neu startet, eingefügt werden.
+
+![pencil informatik](https://user-images.githubusercontent.com/42734752/48850147-42743200-eda8-11e8-8f50-91d42264beca.jpg)
 
 # 22.10.18
 
-  Heute sind wir das Problem vom 17.09 angegangen, um unser Spiel zu optimieren. Dafür haben wir für unseren *Apfel(Costume 2)* eingestellt, dass er, wenn er den Pfeil(Costume1) berührt 0.1 sek wartet und dann zu *random position* geht. Nach einigem Ausprobieren haben wir dies endlich geschafft.
+  Heute sind wir das Problem vom 17.09 angegangen, um unser Spiel zu optimieren. Dafür haben wir für unseren *Apfel(Costume 2)* eingestellt, dass er, wenn er den Pfeil(Costume1) berührt 0.1 sek wartet und dann zu *random position* geht. Nach einigem Ausprobieren haben wir dies endlich geschafft. Das ganze hat allerdings sehr lange gedauert, weil zuvor andere Sachen ausprobiert worden sind.
   
   ![problemapfel](https://user-images.githubusercontent.com/42734752/47641902-8daf7200-db67-11e8-8999-f4ee83d3f9cd.jpg)
 
@@ -110,7 +113,7 @@ Lenkt man *Costume 1* zu *Costume 2* und berührt dieses, wird *Costume 1* grö�
   
 # 29.10.18
 
-Heute wollten wir zusätzliche Tools einfügen. um das Spiel spannender zu gestalten. Dafür haben wir eingestellt, dass der Apfel(*Costume 2*), sich nach einem *Score* von 30 schneller bewegt.  
+Heute wollten wir zusätzliche Tools einfügen, um das Spiel spannender zu gestalten. Dafür haben wir eingestellt, dass der Apfel(*Costume 2*), sich nach einem *Score* von 30 schneller bewegt. Dafür kann man einfach bei dem Befehl *when score>60* die Sekunden die Sprite 2 zu sehen ist auf 2 Sekunden verringern (*wait 2 sec*).
   
 ![apfelbeschleunigung](https://user-images.githubusercontent.com/42734752/47643411-b89bc500-db6b-11e8-96f1-9f2f1c4090f9.jpg)
   
