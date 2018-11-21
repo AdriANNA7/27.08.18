@@ -70,7 +70,9 @@ Wir haben noch weiter Sachen ausprobiert, doch waren durch diesen Vorfall frustr
 
 # 17.09.18
 
-  Diesmal haben wir ein simples Spiel programmiert. Wir haben ein *Costume (Costume 1/Pfeil)*, welches man mit Hilfe der Pfeile der Tastatur bewegen kann, eingefügt. 
+  Diesmal haben wir ein simples Spiel programmiert. Wir haben ein *Costume (Costume 1/Pfeil)*, welches man mit Hilfe der Pfeile der Tastatur bewegen kann, eingefügt. Dafür haben wir fü die jeweiligen Pfeiltasten den Befehl *point in direction [...]* eingefügt, damit sich der Pfeil in die Richtung dreht, in die er sich bewegen soll. In das freie Feld konnte man die passende Gradzahl einfügen.
+  **Oben**: 0°  **Unten**: 180°  **Links**:-90°  **Rechts**: 90°
+ Damit der Pfeil sich bewegt, musste der Befehl *move [20] steps* zu den Scripts hinzugefügt werden. Die Zahl 20 besagt, wie weit nach vorne sich der Pfeil bewegt.
 
 ![apfelspiel](https://user-images.githubusercontent.com/42734752/45690620-15609480-bb57-11e8-9381-96494b7a5ce3.jpg)
 
