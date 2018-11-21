@@ -52,7 +52,7 @@ Zusätzlich haben wir mit dem *Costume* der Katze probiert, wie man zwischen den
 
 # 11.09.18
 
-  In dieser Doppelstunde setzten wir unseren Kurs fort. Wir haben ein neues *Sprite* aus *Costumes* hinzugefügt, und zwar das *Costume* "Unicorn 1!" . Dieses haben wir dupliziert, und daraufhin durch *edit* spiegelverkehrt erstellt. Um das spiegelverkehrte *Costume* sehen zu können, haben wir auf unserem Script die Befehle *when I am **clicked** + *next costume* eingefügt.
+  In dieser Doppelstunde setzten wir unseren Kurs fort. Wir haben ein neues *Sprite* aus *Costumes* hinzugefügt, und zwar das *Costume* "Unicorn 1!" . Dieses haben wir dupliziert, und daraufhin durch *edit* spiegelverkehrt erstellt. Um das spiegelverkehrte *Costume* sehen zu können, haben wir auf unserem Script die Befehle *when I am* **clicked** + *next costume* eingefügt.
 
 ![spiegelverkehrt](https://user-images.githubusercontent.com/42734752/45363379-aa074780-b5d7-11e8-907d-fa559fc65d36.jpg)
 
@@ -66,7 +66,7 @@ Zusätzlich haben wir mit dem *Costume* der Katze probiert, wie man zwischen den
 
   So wussten wir zwar, wo sich unser *Costume* befindet, aber es war nicht in seiner Original-Form. Dann entdeckten wir den Befehl *clear graphic effects* und setzten diesen ein. Glücklicherweise konnte man das "Unicorn" damit wieder deutlich in Original-Form sehen.
 
-
+Wir haben noch weiter Sachen ausprobiert, doch waren durch diesen Vorfall frustriert und beschlossen die nächsten Stunden etwas ganz neues auszuprobieren.
 
 # 17.09.18
 
