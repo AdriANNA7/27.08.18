@@ -84,7 +84,7 @@ Lenkt man *Costume 1* zu *Costume 2* und berührt dieses, wird *Costume 1* grö�
 
 ![informatik apfel](https://user-images.githubusercontent.com/42734752/48849606-ff658f00-eda6-11e8-827b-4c40b50e4689.png)
 
-  Das Problem besteht darin, dass der Pfeil sich nicht nur wie gewünscht einmal vergrößert, sondern mehrmals. Dies führt dazu, dass der Pfeil schnell, zu groß für den Bildschirm wird. 
+  Das Problem besteht darin, dass der Pfeil sich nicht nur wie gewünscht einmal vergrößert, sondern mehrmals. Dies führt dazu, dass der Pfeil schnell zu groß für den Bildschirm wird. 
 
 # 18.09.18
 
@@ -102,7 +102,7 @@ Das Sprite sollte als Stift fungieren. Dies konnte man durch den Block *Pen* ein
 
 # 23.10.18
 
-  In dieser Unterrichtsstunde arbeiten wir an unserem Spiel weiter. Für die Zukunft, wollen wir das Design unseres Spieles ändern. Deshalb kommen wir zu diesem Punkt ein anderes Mal zurück. 
+  In dieser Unterrichtsstunde arbeiten wir an unserem Spiel weiter. Für die Zukunft wollen wir das Design unseres Spieles ändern. Deshalb kommen wir zu diesem Punkt ein anderes Mal zurück. 
   Für unser Spiel wollen wir eine Spielstandanzeige einfügen. Dafür haben wir eine neue Variable *Score* erstellt und sie bei 0 eingestellt. 
   
   ![score1](https://user-images.githubusercontent.com/42734752/47366796-b2769600-d6de-11e8-8583-3d49ca9c8015.jpg)
@@ -123,7 +123,7 @@ Heute wollten wir zusätzliche Tools einfügen, um das Spiel spannender zu gesta
   
   # 30.10.18
   
-  Bis jetzt änderte sich der *Score*, je nach dem wie lange *Sprite 1* das *Sprite 2* berührte. Deshalb wurde der *Score* immer unterschiedlich erhöht. Dies stellte aber ein Problem dar, da man manchmal nicht exakt einen *Score* von 30 erreichen konnte. Außerdem war es viel zu ungenau für ein Spiel. Deswegen haben wir den Block, dass sich der Score um 1 erhöht von dem Script des ersten Sprites zum Script des ZWeiten Sprites verschoben. So erhöht sich der Score jedes mal nur um 1.
+  Bis jetzt änderte sich der *Score*, je nach dem wie lange *Sprite 1* das *Sprite 2* berührte. Deshalb wurde der *Score* immer unterschiedlich erhöht. Dies stellte aber ein Problem dar, da man manchmal nicht exakt einen *Score* von 30 erreichen konnte. Außerdem war es viel zu ungenau für ein Spiel. Deswegen haben wir den Block, dass sich der Score um 1 erhöht von dem Script des ersten Sprites zum Script des ZWeiten Sprites verschoben. So erhöht sich der Score jedes Mal nur um 1.
   
 ![score 1 richtig](https://user-images.githubusercontent.com/42734752/47727968-bade4c00-dc5d-11e8-8f45-a98fc57f87de.jpg)
 
@@ -140,7 +140,7 @@ Heute wollten wir zusätzliche Tools einfügen, um das Spiel spannender zu gesta
  
  ![verschiedene costumes](https://user-images.githubusercontent.com/42734752/48072289-7bbf7600-e1dc-11e8-8f33-7618fb971847.png)
 
-Dazu wollten wir, dass sich der Hintergrund, passenden zum Krebs-Costume, zu einem Sandstrand ändert. Dies bewerkstelligten wir genau, wie bei den *Costumes*.
+Dazu wollten wir, dass sich der Hintergrund, passend zum Krebs-Costume, in einen Sandstrand ändert. Dies bewerkstelligten wir genau wie bei den *Costumes*.
 
 ![stage sand und krebs screen](https://user-images.githubusercontent.com/42734752/48072826-afe76680-e1dd-11e8-968a-2a053c7fb730.png)
 
@@ -150,11 +150,11 @@ Außerdem wollten wir die Befehle für das *Costume* der goldenen 30 noch einmal
 
 # 12.11.18
 
- Heute wollten wir das Schwierigkeitslevel des Spieles erhöhen. Es sollte ein Sprite geben, welches unser Sprite 1 "tötet". Man soll also auch verlieren können. Dafür haben wir ein neues Sprite erstellt, welches auf der x-Achse gleitet und das random auf der y-Achse und sich dieses beliebig wiederholt. Dafür haben wir in den Befehl *forever*, da es immer wieder auftauchen soll, den Befehl *set x to -350* eingefügt, damit es von der linken Bildschirmseite aus startet und vorher nicht zu sehen ist, wie auch den Befehl *point in direction 90* also, dass das Sprite nach rechts zeigt und es realistisch aussieht. Damit es wie ein Fisch im Wasser gleitet, wird der Befehl *glide 10 sec to x: 350 y: **pick random -180 to 100***) verwendet. X: 350 wird verwendet, damit das Sprite komplett verschwindet und die Y_koordinaten werden ständig random in einem bestimmten Bereich gewählt. 
+Heute wollten wir das Schwierigkeitslevel des Spieles erhöhen. Es sollte ein Sprite geben, welches unser Sprite 1 bei Berührung "töten" kann. Der Spieler soll also auch verlieren können. Dafür haben wir ein neues Sprite erstellt, welches auf der x-Achse gleitet und random/zufällig auf der y-Achse startet. Dieser Vorgang soll sich beliebig wiederholen. Dafür haben wir in den Befehl *forever*, da es immer wieder auftauchen soll, zum einen den Befehl *set x to -350* eingefügt, damit es von der linken Bildschirmseite aus startet und vorher nicht zu sehen ist und zum anderen den Befehl *point in direction 90*, so dass das Sprite nach rechts zeigt und es realistisch aussieht. Damit es wie ein Fisch im Wasser gleitet, wird der Befehl *glide 10 sec to x: 350 y: **pick random -180 to 100***) verwendet. X: 350 wird ausgewählt, damit das Sprite komplett verschwindet und die Y-Koordinaten werden ständig random in einem bestimmten Bereich gewählt. 
  
 ![hai](https://user-images.githubusercontent.com/42734752/48418742-5d1a2b80-e756-11e8-821a-8e043ccbe962.jpg)
  
- Wenn Sprite 1 dieses neue Sprite berührt, sagt Sprite 1 Game over, verschwindet und alle Blöcke werden gestoppt. Dies stellten wir bei dem Block des ersten Sprites ein.
+Wenn Sprite 1 dieses neue Sprite berührt, sagt Sprite 1 "Game over", verschwindet und alle Blöcke werden gestoppt. Dies stellten wir bei dem Block des ersten Sprites ein.
 
 ![gameover](https://user-images.githubusercontent.com/42734752/48418512-c483ab80-e755-11e8-94e9-5e80eea4ab35.jpg)
 
