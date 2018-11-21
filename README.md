@@ -27,13 +27,15 @@ Wir wollten einen Hund horizontal bewegen lassen. Die Sprites sind grundsätzlic
 
 ![informatik costumes](https://user-images.githubusercontent.com/42734752/48846290-07b9cc00-ed9f-11e8-92a2-39221e3ed29b.png)
 
-Wir haben bei diesem Versuch eine Hund aus dem Internet importiert. Dafür ist es wichtig, dass es sich um ein PNG handelt, also transparent ist. Um das Sprite bewegen zu lassen, haben wir auf dem Script den Befehl, unter *Control* Taste 0, *move 10 steps (Motion)* eingefügt.
+Wir haben bei diesem Versuch eine Hund aus dem Internet importiert. Dafür ist es wichtig, dass es sich um ein PNG handelt, also transparent ist. Um das Sprite bewegen zu lassen, haben wir auf dem Script den Befehl, unter *Control* Taste 0, *move 10 steps (Motion)* eingefügt. Damit der Hund nicht vom Bildschirm verschwinden kann, haben wir den Befehl *if on edge bounce* eingefügt, so dass er sich immer von links nach rechts bewegt.
 
 ![1](https://user-images.githubusercontent.com/42734752/44729547-5e38a680-aadf-11e8-9c5f-0ea227e6f0d4.jpg)
 
-  Dazu sollte der Hund "Hello" für zwei Sekunden sagen. Dafür haben wir, unter *Control Leertaste*, den Befehl von *Looks* "say hello for 2 seconds" hinzugefügt.
+  Dazu sollte der Hund "Hello" für zwei Sekunden sagen. Dafür haben wir, unter *Control Leertaste*, den Befehl von *Looks* *say hello for 2 seconds* hinzugefügt.
 
 ![2hello](https://user-images.githubusercontent.com/42734752/45362670-ba1e2780-b5d5-11e8-8d06-58754d4527bb.jpg)
+
+Außerdem mussten wir den Befehl *switch to costume hund* einfügen, damit beim klicken der 0 - Taste auch wirklich der Hund erscheint. Denn wir hatten ein weiteres *Costume*, nämlich eine Katze importiert, mit der wir nächste Stunde weitere Sachen ausprobieren wollen.
 
   Wir finden, dass **Snap!** als Programm für uns als Anfänger sehr geeignet ist, da es verständlich und einfach zu bedienen ist.
 
@@ -42,6 +44,11 @@ Wir haben bei diesem Versuch eine Hund aus dem Internet importiert. Dafür ist e
 
   Nachdem wir uns für die blockbasierte Programmiersprache **Snap** entschieden haben, fingen wir den schon fertigen Kurs [*Beauty and Joy of computing*](https://bjc.edc.org/bjc-r/course/bjc4nyc.html) an, der von den Universitäten von California, Berkeley und Education Development Center ausgearbeitet wurde. Der Kurs stellt sieben Units dar, die unterschiedlichen Niveaus entsprechen. Als Anfänger wollen wir zuerst eine theoretische Grundlage erlangen.
 Als ersten Schritt, legten wir einen Account an. Es ist wichtig einen eigenen Account zu haben, damit die Dateien auf jeden Fall gespeichert sind. 
+
+Zusätzlich haben wir mit dem *Costume* der Katze probiert, wie man zwischen den *Costumes* wechseln kann und was sie sagen (also ähnlich zu letzter Stunde). Unter der Taste 1 erscheint jetzt die Katze, unser zweites *Costume* und unter der Taste 3 sagt es "Miau". 
+
+![informaik katze](https://user-images.githubusercontent.com/42734752/48847356-9b8c9780-eda1-11e8-8f4b-fabee551d415.png)
+
 
 # 11.09.18
 
