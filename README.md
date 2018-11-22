@@ -6,7 +6,6 @@
 
 [3. Stichwortverzeichnis](#3)
 
-[4. Projektvorstellung](#4)
 
 ## Einleitung<a name="1"></a>
 
