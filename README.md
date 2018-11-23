@@ -184,6 +184,7 @@ Heute haben wir das Spiel wieder weiter optimiert. Bislang drehte sich das Sprit
 
 ![sprite bewegung](https://user-images.githubusercontent.com/42734752/48778932-c2ca6280-ecd6-11e8-81e5-791cef84d781.jpg)
 
+Außerdem haben wir die Costume-Wechsel bis zum Menschen eingefügt, was wir wie bisher taten. Passend dazu fügten wir noch einen *Costume-switch* bei Sprite 2 und bei dem Hintergund ein. 
 
 ## Stichwortverzeichnis<a name="3"></a>
 
