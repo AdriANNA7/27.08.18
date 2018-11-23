@@ -187,4 +187,12 @@ Heute haben wir das Spiel wieder weiter optimiert. Bislang drehte sich das Sprit
 
 ## Stichwortverzeichnis<a name="3"></a>
 
+**Block** : Scripte werden auf diesem erstellt
+
+**Costume**: Aussehen der Sprites
+
+**Script** : Befehlfolge für einzelne Sprites 
+
+**Sprite** : Spielfiguren, welche die programmierten Befehle ausführen
+
 
